@@ -1,19 +1,19 @@
 {
-  "name": "vben-admin",
+  "name": "louis-admin",
   "version": "2.10.0",
-  "homepage": "https://github.com/vbenjs/vue-vben-admin",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/vbenjs/vue-vben-admin/issues"
+    "url": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git"
+    "url": ""
   },
   "license": "MIT",
   "author": {
-    "name": "vben",
-    "email": "anncwb@126.com",
-    "url": "https://github.com/anncwb"
+    "name": "louis",
+    "email": "",
+    "url": ""
   },
   "scripts": {
     "bootstrap": "pnpm install",

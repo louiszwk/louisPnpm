@@ -1,6 +1,5 @@
 import { ref, computed, unref } from 'vue';
 import { createPageContext } from '/@/hooks/component/usePageContext';
-// import { useWindowSizeFn } from '@vben/hooks';
 import { useWindowSizeFn } from '@/tools/hooks';
 
 const headerHeightRef = ref(0);

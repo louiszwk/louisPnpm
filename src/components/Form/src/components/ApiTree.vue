@@ -10,7 +10,6 @@
 </template>
 
 <script lang="ts">
-  // import { type Recordable, type AnyFunction } from '@vben/types';
   import { type Recordable, type AnyFunction } from '@/tools/types';
   import { type PropType, computed, defineComponent, watch, ref, onMounted, unref } from 'vue';
   import { Tree } from 'ant-design-vue';

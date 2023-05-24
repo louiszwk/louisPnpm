@@ -1,5 +1,4 @@
 <script lang="tsx">
-  // import { type Recordable, type Nullable } from '@vben/types';
   import { type Recordable, type Nullable } from '@/tools/types';
   import type { PropType, Ref } from 'vue';
   import { computed, defineComponent, toRefs, unref } from 'vue';

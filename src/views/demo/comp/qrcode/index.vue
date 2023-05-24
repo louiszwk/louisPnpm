@@ -29,7 +29,7 @@
       <CollapseContainer title="在线logo示例" class="text-center mb-6 qrcode-demo-item">
         <QrCode
           :value="qrCodeUrl"
-          logo="https://vebn.oss-cn-beijing.aliyuncs.com/vben/logo.png"
+          logo="https://github.com/louiszwk/louisPnpm"
           :options="{
             color: { dark: '#55D187' },
           }"
@@ -40,7 +40,7 @@
         <QrCode
           :value="qrCodeUrl"
           :logo="{
-            src: 'https://vebn.oss-cn-beijing.aliyuncs.com/vben/logo.png',
+            src: 'https://github.com/louiszwk/louisPnpm',
             logoSize: 0.2,
             borderSize: 0.05,
             borderRadius: 50,

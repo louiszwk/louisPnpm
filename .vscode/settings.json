@@ -103,7 +103,7 @@
   "i18n-ally.displayLanguage": "zh-CN",
   "i18n-ally.enabledFrameworks": ["vue", "react"],
   "cSpell.words": [
-    "vben",
+    "louis",
     "browserslist",
     "tailwindcss",
     "esnext",
