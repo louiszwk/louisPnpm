@@ -13,7 +13,8 @@
   import { computed, unref } from 'vue';
   import Icon from '@/components/Icon/Icon.vue';
   import { buttonProps } from './props';
-  import { useAttrs } from '@vben/hooks';
+  // import { useAttrs } from '@vben/hooks';
+  import { useAttrs } from '@/tools/hooks';
 
   defineOptions({
     name: 'AButton',

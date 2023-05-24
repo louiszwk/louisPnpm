@@ -4,7 +4,8 @@
   import { Popconfirm } from 'ant-design-vue';
   import { extendSlots } from '/@/utils/helper/tsxHelper';
   import { omit } from 'lodash-es';
-  import { useAttrs } from '@vben/hooks';
+  // import { useAttrs } from '@vben/hooks';
+  import { useAttrs } from '@/tools/hooks';
   import { useI18n } from '/@/hooks/web/useI18n';
 
   const props = {

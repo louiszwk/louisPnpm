@@ -11,7 +11,8 @@ import {
   Ref,
   watchEffect,
 } from 'vue';
-import { useTimeoutFn } from '@vben/hooks';
+// import { useTimeoutFn } from '@vben/hooks';
+import { useTimeoutFn } from '@/tools/hooks';
 import { buildUUID } from '/@/utils/uuid';
 import { isFunction, isBoolean, isObject } from '/@/utils/is';
 import { get, cloneDeep, merge } from 'lodash-es';

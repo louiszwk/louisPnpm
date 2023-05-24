@@ -2,7 +2,8 @@
   import { ref, unref, defineComponent, type PropType, type ExtractPropTypes } from 'vue';
   import { isNil } from 'lodash-es';
   import { Skeleton } from 'ant-design-vue';
-  import { useTimeoutFn } from '@vben/hooks';
+  // import { useTimeoutFn } from '@vben/hooks';
+  import { useTimeoutFn } from '@/tools/hooks';
   import { CollapseTransition } from '/@/components/Transition';
   import CollapseHeader from './CollapseHeader.vue';
   import { triggerWindowResize } from '/@/utils/event';

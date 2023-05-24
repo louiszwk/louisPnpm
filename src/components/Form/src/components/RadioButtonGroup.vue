@@ -15,7 +15,8 @@
   import { Radio } from 'ant-design-vue';
   import { isString } from '/@/utils/is';
   import { useRuleFormItem } from '/@/hooks/component/useFormItem';
-  import { useAttrs } from '@vben/hooks';
+  // import { useAttrs } from '@vben/hooks';
+  import { useAttrs } from '@/tools/hooks';
 
   type OptionsItem = { label: string; value: string | number | boolean; disabled?: boolean };
   type RadioItem = string | OptionsItem;

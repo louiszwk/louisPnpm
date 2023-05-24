@@ -18,7 +18,8 @@
   import { useLocale } from '/@/locales/useLocale';
   import { useModalContext } from '../../Modal';
   import { useRootSetting } from '/@/hooks/setting/useRootSetting';
-  import { onMountedOrActivated } from '@vben/hooks';
+  // import { onMountedOrActivated } from '@vben/hooks';
+  import { onMountedOrActivated } from '@/tools/hooks';
   import { getTheme } from './getTheme';
 
   type Lang = 'zh_CN' | 'en_US' | 'ja_JP' | 'ko_KR' | undefined;

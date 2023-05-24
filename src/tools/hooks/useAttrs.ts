@@ -1,4 +1,5 @@
-import { type Recordable } from '@vben/types';
+// import { type Recordable } from '@vben/types';
+import { type Recordable } from '@/tools/types';
 import { getCurrentInstance, reactive, shallowRef, watchEffect } from 'vue';
 
 interface UseAttrsOptions {

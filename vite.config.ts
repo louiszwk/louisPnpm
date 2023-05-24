@@ -1,4 +1,4 @@
-import { defineApplicationConfig } from '@vben/vite-config';
+import { defineApplicationConfig } from './build/vite-config';
 
 export default defineApplicationConfig({
   overrides: {
