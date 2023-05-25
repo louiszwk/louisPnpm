@@ -1,5 +1,5 @@
 <!--
- * @Description: 渲染组件，无法使用Vben的组件
+ * @Description: 渲染组件，无法使用xxxx的组件
 -->
 <template>
   <Modal

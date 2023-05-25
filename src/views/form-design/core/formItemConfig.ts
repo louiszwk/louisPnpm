@@ -3,7 +3,7 @@
  */
 import { IVFormComponent } from '../typings/v-form-component';
 import { isArray } from 'lodash-es';
-import { componentMap as VbenCmp, add } from '/@/components/Form/src/componentMap';
+import { componentMap as LouisCmp, add } from '/@/components/Form/src/componentMap';
 import { ComponentType } from '/@/components/Form/src/types';
 
 import { componentMap as Cmp } from '../components';
@@ -16,12 +16,12 @@ const componentMap = new Map<string, Component>();
 //注册Ant控件库
 Cmp.forEach((value, key) => {
   componentMap.set(key, value);
-  if (VbenCmp[key] == null) {
+  if (LouisCmp[key] == null) {
     add(key as ComponentType, value);
   }
 });
-//注册vben控件库
-VbenCmp.forEach((value, key) => {
+//注册Louis控件库
+LouisCmp.forEach((value, key) => {
   componentMap.set(key, value);
 });
 

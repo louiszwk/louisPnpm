@@ -14,7 +14,6 @@
   import type { CSSProperties } from 'vue';
   import { ref, unref, computed } from 'vue';
   import { Spin } from 'ant-design-vue';
-  // import { useWindowSizeFn } from '@vben/hooks';
   import { useWindowSizeFn } from '@/tools/hooks';
   import { propTypes } from '/@/utils/propTypes';
   import { useDesign } from '/@/hooks/web/useDesign';
