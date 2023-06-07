@@ -1,5 +1,5 @@
 <!--
- * @Description: 使用vbenForm的功能进行渲染
+ * @Description: 使用Form的功能进行渲染
 -->
 <template>
   <Modal
